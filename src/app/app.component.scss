@@ -1,0 +1,20 @@
+.wrapper{
+    display: grid;
+    grid-template-rows: 1fr 15fr;
+    grid-template-columns: 1fr 100fr;
+    grid-template-areas: 
+         "sidemenu toolbar"
+         "sidemenu content"
+}
+
+.sidemenu{
+    grid-area: sidemenu;
+}
+
+.toolbar{
+    grid-area: toolbar;   
+}
+
+.content{
+    grid-area: content;
+}

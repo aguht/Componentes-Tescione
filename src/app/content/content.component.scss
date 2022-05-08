@@ -1,0 +1,59 @@
+.wrapp{
+    display: grid;
+    margin: 13px;
+    grid-gap: 10px;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    grid-gap: 10px;
+    
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 350px;
+    grid-gap: 10px;
+
+}
+
+
+.card > img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 250ms all ease-in-out;
+    &:hover{
+        box-shadow:  5px 5px 20px #555555;
+        transition: 250ms all ease-in-out;
+        margin-top:-5px;
+    }
+
+      
+}
+
+
+.text1 {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -485px;
+    left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px #000000;
+    
+}
+
+.text2 {
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -330px;
+    left: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 3px 3px #000000;
+
+}
